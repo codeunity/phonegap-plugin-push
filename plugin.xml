@@ -80,8 +80,10 @@
     <config-file target="*-Release.plist" parent="aps-environment">
       <string>production</string>
     </config-file>
+    <source-file src="src/ios/ForegroundNotificationHandler.m"/>
     <source-file src="src/ios/AppDelegate+notification.m"/>
     <source-file src="src/ios/PushPlugin.m"/>
+    <source-file src="src/ios/ForegroundNotificationHandler.h"/>
     <header-file src="src/ios/AppDelegate+notification.h"/>
     <header-file src="src/ios/PushPlugin.h"/>
     <framework src="FirebaseMessaging" type="podspec" spec="~> 2.0.0"/>
